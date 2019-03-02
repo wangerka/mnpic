@@ -1,14 +1,16 @@
 package com.ddd.mnpic.bean;
 
 public class Pic {
-    String _id;
-    String creatdAt;
-    String desc;
-    String publishedAt;
-    String source;
-    String url;
-    String used;
-    String who;
+    public static final String OBJECT_URL = "url";
+
+    private String _id;
+    private String creatdAt;
+    private String desc;
+    private String publishedAt;
+    private String source;
+    private String url;
+    private String used;
+    private String who;
 
     public String get_id() {
         return _id;

@@ -1,8 +1,10 @@
 package com.ddd.mnpic.bean;
 
 public class PicJson {
-    String error;
-    Pic[] pics;
+    public static final String OBJECT_RESULTS = "results";
+
+    private String error;
+    private Pic[] pics;
 
     public String getError() {
         return error;
